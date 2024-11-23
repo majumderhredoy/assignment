@@ -1,0 +1,597 @@
+.navbar{
+    display: flex;
+}
+.navbar{
+    justify-content: space-between;
+}
+.navbar {
+    align-items: center;
+  }
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+.cta-button{
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}   
+.cta-button :hover{
+    background-color: #0056b3;
+} 
+.nav-logo{
+    font-size: 20px;
+    font-weight: bold;
+    color: #007BFF;
+
+}
+.navbar{
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0,2px,4px rgba(0, 0, 0, 0.2);
+}
+/* Section 1: Navbar */
+.navbar {
+    background-color: rgb(153, 197, 238); /* Dark Gray */
+    color: rgb(166, 153, 238);
+}
+
+
+
+
+/* Banner Section */
+.banner {
+    background-color: #f8f9fa; /* Light background */
+    padding: 50px 20px;
+}
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.banner-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.banner-text h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.banner-text p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.banner-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.banner-btn:hover {
+    background-color: #0056b3;
+}
+
+.banner-image {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.banner-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .banner-container {
+        flex-direction: column-reverse; /* Image on top, text below */
+        align-items: center;
+    }
+
+    .banner-text {
+        text-align: center;
+    }
+
+    .banner-text h1 {
+        font-size: 2rem;
+    }
+
+    .banner-text p {
+        font-size: 0.9rem;
+    }
+}
+/* Section 2: Banner */
+.banner {
+    background-color: #fff; /* Light Gray */
+}
+
+
+
+
+
+
+/* Our Client Section */
+.our-client {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+}
+
+.section-heading {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.client-logos {
+    display: flex; /* Use Flexbox */
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    justify-content: center; /* Center the logos */
+    gap: 20px; /* Add space between logos */
+}
+
+.client-logos img {
+    max-width: 120px;
+    height: auto;
+    border-radius: 8px;
+    flex: 0 0 45%; /* Set each image to take up 45% of the row */
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .client-logos img {
+        flex: 0 0 45%; /* 2 logos per row */
+    }
+}
+/* Section 3: Our Client */
+.our-client {
+    background-color: rgba(153, 193, 238, 0.867); /* Soft Light Gray */
+}
+
+
+
+
+
+/* Power of Blockchain Section */
+.power-of-blockchain {
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.section-heading {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.blockchain-points {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px; /* Add space between the points */
+}
+
+.point {
+    width: 45%; /* Each point takes 45% of the row */
+    max-width: 400px;
+    text-align: left;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.point img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.point-heading {
+    font-size: 1.5rem;
+    color: #007b55;
+    margin-bottom: 10px;
+}
+
+.point-description {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Hover Effect */
+.point:hover {
+    transform: translateY(-10px); /* Slight raise effect on hover */
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .point {
+        width: 90%; /* Take up 90% of the width on mobile */
+    }
+}
+/* Section 4: Power of Blockchain */
+.power-of-blockchain {
+    background-color: rgba(168, 221, 68, 0.6); /* Light Green */
+}
+
+
+
+
+/* Helping Blockchain Section */
+.helping-blockchain {
+    padding: 50px 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.section-heading {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.helping-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    width: 30%;
+    max-width: 350px;
+    text-align: left;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #007b55;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Hover Effect */
+.card:hover {
+    transform: translateY(-10px); /* Slight raise effect on hover */
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .card {
+        width: 90%; /* Take up 90% of the width on mobile */
+    }
+}
+/* Section 5: Helping Blockchain */
+.helping-blockchain {
+    background-color: rgb(153, 204, 238); /* Pale Yellow */
+}
+
+
+
+
+/* Blockchain Future Section */
+.blockchain-future {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.section-heading {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.future-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.future-card {
+    position: relative;
+    width: 30%;
+    max-width: 350px;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.future-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease, background-color 0.3s ease;
+}
+
+.card-overlay h3 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* Hover Effect */
+.future-card:hover {
+    transform: translateY(-10px); /* Slightly raise the card */
+}
+
+.future-card:hover .card-overlay {
+    opacity: 1; /* Reveal the overlay on hover */
+    background-color: rgba(0, 0, 0, 0.7); /* Darker overlay */
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .future-card {
+        width: 90%; /* Take up most of the width on mobile */
+    }
+}
+/* Section 6: Blockchain Future */
+.blockchain-future {
+    background-color: #ffffff; /* Neutral Light Gray */
+}
+
+
+
+
+/* Contact Us Section */
+.contact-us {
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact-image {
+    flex: 1;
+    max-width: 400px;
+    text-align: center;
+}
+
+.contact-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.contact-form {
+    flex: 1;
+    max-width: 500px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.8rem;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.form-group textarea {
+    resize: none;
+}
+
+.send-button {
+    background-color: #007BFF;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.send-button:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s ease;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-image {
+        order: 1; /* Place image above form */
+    }
+
+    .contact-form {
+        order: 2;
+    }
+}
+/* Section 7: Contact Us */
+.contact-us {
+    background-color: #f8d7da; /* Light Pink */
+}
+
+
+
+
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-logo {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-logo h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.footer-logo p {
+    color: #ccc;
+    font-size: 0.9rem;
+}
+
+.footer-social {
+    flex: 1;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icon-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social-icon-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.footer-links {
+    flex: 1;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.footer-links a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+.footer-copyright {
+    flex: 1;
+    min-width: 200px;
+    color: #bbb;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+}
+/* Section 8: Footer */
+.footer {
+    background-color: #292321a2; /* Dark Gray (Footer Section) */
+    color: #fff;
+}
+
+
+    
+  
