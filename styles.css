@@ -39,18 +39,18 @@
     background-color: #f8f9fa;
     box-shadow: 0,2px,4px rgba(0, 0, 0, 0.2);
 }
-/* Section 1: Navbar */
+
 .navbar {
-    background-color: rgb(153, 197, 238); /* Dark Gray */
+    background-color: rgb(153, 197, 238); 
     color: rgb(166, 153, 238);
 }
 
 
 
 
-/* Banner Section */
+
 .banner {
-    background-color: #f8f9fa; /* Light background */
+    background-color: #f8f9fa; 
     padding: 50px 20px;
 }
 
@@ -109,10 +109,10 @@
     border-radius: 10px;
 }
 
-/* Mobile Responsive */
+
 @media (max-width: 768px) {
     .banner-container {
-        flex-direction: column-reverse; /* Image on top, text below */
+        flex-direction: column-reverse;
         align-items: center;
     }
 
@@ -128,9 +128,9 @@
         font-size: 0.9rem;
     }
 }
-/* Section 2: Banner */
+
 .banner {
-    background-color: #fff; /* Light Gray */
+    background-color: #fff; 
 }
 
 
@@ -138,7 +138,7 @@
 
 
 
-/* Our Client Section */
+
 .our-client {
     text-align: center;
     padding: 50px 20px;
@@ -152,35 +152,35 @@
 }
 
 .client-logos {
-    display: flex; /* Use Flexbox */
-    flex-wrap: wrap; /* Allow wrapping to the next line */
-    justify-content: center; /* Center the logos */
-    gap: 20px; /* Add space between logos */
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
 }
 
 .client-logos img {
     max-width: 120px;
     height: auto;
     border-radius: 8px;
-    flex: 0 0 45%; /* Set each image to take up 45% of the row */
+    flex: 0 0 45%; 
 }
 
-/* Mobile responsive */
+
 @media (max-width: 768px) {
     .client-logos img {
-        flex: 0 0 45%; /* 2 logos per row */
+        flex: 0 0 45%; 
     }
 }
-/* Section 3: Our Client */
+
 .our-client {
-    background-color: rgba(153, 193, 238, 0.867); /* Soft Light Gray */
+    background-color: rgba(153, 193, 238, 0.867); 
 }
 
 
 
 
 
-/* Power of Blockchain Section */
+
 .power-of-blockchain {
     padding: 50px 20px;
     background-color: #f8f9fa;
@@ -197,11 +197,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 40px; /* Add space between the points */
+    gap: 40px; 
 }
 
 .point {
-    width: 45%; /* Each point takes 45% of the row */
+    width: 45%; 
     max-width: 400px;
     text-align: left;
     background-color: #ffffff;
@@ -229,26 +229,26 @@
     color: #555;
 }
 
-/* Hover Effect */
+
 .point:hover {
-    transform: translateY(-10px); /* Slight raise effect on hover */
+    transform: translateY(-10px); 
 }
 
-/* Mobile Responsive */
+
 @media (max-width: 768px) {
     .point {
-        width: 90%; /* Take up 90% of the width on mobile */
+        width: 90%; 
     }
 }
-/* Section 4: Power of Blockchain */
+
 .power-of-blockchain {
-    background-color: rgba(168, 221, 68, 0.6); /* Light Green */
+    background-color: rgba(168, 221, 68, 0.6); 
 }
 
 
 
 
-/* Helping Blockchain Section */
+
 .helping-blockchain {
     padding: 50px 20px;
     background-color: #f1f1f1;
@@ -297,26 +297,26 @@
     color: #555;
 }
 
-/* Hover Effect */
+
 .card:hover {
-    transform: translateY(-10px); /* Slight raise effect on hover */
+    transform: translateY(-10px); 
 }
 
-/* Mobile Responsive */
+
 @media (max-width: 768px) {
     .card {
-        width: 90%; /* Take up 90% of the width on mobile */
+        width: 90%; 
     }
 }
-/* Section 5: Helping Blockchain */
+
 .helping-blockchain {
-    background-color: rgb(153, 204, 238); /* Pale Yellow */
+    background-color: rgb(153, 204, 238); 
 }
 
 
 
 
-/* Blockchain Future Section */
+
 .blockchain-future {
     padding: 50px 20px;
     background-color: #ffffff;
@@ -372,31 +372,29 @@
     text-align: center;
 }
 
-/* Hover Effect */
+
 .future-card:hover {
-    transform: translateY(-10px); /* Slightly raise the card */
+    transform: translateY(-10px); 
 }
 
 .future-card:hover .card-overlay {
-    opacity: 1; /* Reveal the overlay on hover */
-    background-color: rgba(0, 0, 0, 0.7); /* Darker overlay */
+    opacity: 1; 
+    background-color: rgba(0, 0, 0, 0.7); 
 }
 
-/* Mobile Responsive */
+
 @media (max-width: 768px) {
     .future-card {
-        width: 90%; /* Take up most of the width on mobile */
+        width: 90%; 
     }
 }
-/* Section 6: Blockchain Future */
+
 .blockchain-future {
-    background-color: #ffffff; /* Neutral Light Gray */
+    background-color: #ffffff; 
 }
 
 
 
-
-/* Contact Us Section */
 .contact-us {
     padding: 50px 20px;
     background-color: #f8f9fa;
@@ -477,29 +475,29 @@
     transition: background-color 0.3s ease;
 }
 
-/* Mobile Responsive */
+
 @media (max-width: 768px) {
     .contact-container {
         flex-direction: column;
     }
 
     .contact-image {
-        order: 1; /* Place image above form */
+        order: 1; 
     }
 
     .contact-form {
         order: 2;
     }
 }
-/* Section 7: Contact Us */
+
 .contact-us {
-    background-color: #f8d7da; /* Light Pink */
+    background-color: #f8d7da; 
 }
 
 
 
 
-/* Footer Section */
+
 .footer {
     background-color: #333;
     color: #fff;
@@ -578,7 +576,7 @@
     margin-top: 10px;
 }
 
-/* Mobile Responsive */
+
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column;
@@ -586,9 +584,9 @@
         gap: 30px;
     }
 }
-/* Section 8: Footer */
+
 .footer {
-    background-color: #292321a2; /* Dark Gray (Footer Section) */
+    background-color: #292321a2; 
     color: #fff;
 }
 
